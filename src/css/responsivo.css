@@ -1,0 +1,173 @@
+@media (max-width: 1024px){
+    p{
+        font-size: 16px;
+    }
+
+    main h2{
+        font-size: 20px;
+    }
+
+    main h3{
+        font-size: 18px;
+    }
+
+    section p{
+        font-size: 16px;
+    }
+
+    section h2{
+        font-size: 20px;
+    }
+
+    .cabecalho #logo{
+        height: 70px;
+    }
+
+    .shadow{
+        left: -520px;
+    }
+
+    .menu ul li a {
+        font-size: 20px;  
+        z-index: 1;
+    }
+
+    .menu ul li::after {
+        content: "";
+        position: absolute;
+        bottom: -25px;
+    }
+
+    .player .introducao img{
+        height: 150px;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    
+    .player article .introducao #nome{
+        display: flex;
+        align-items: center;
+        position: relative;
+        margin-left: 220px;
+        margin-top: -150px;
+    }
+
+    .player article .introducao p{
+        margin-left: 220px;
+    }
+
+    .player article .caracteristicas {
+        margin-top: 0px;
+    }    
+
+    .personagens .cards .card img{
+        height: 115px;
+    }
+    .personagens .cards .card.selecionado img{
+        height: 130px;
+    }
+
+    .personagens .personagem .imagem{
+        height: 250px;
+    }
+    
+    .personagens .personagem .conteudo .nome-personagem{
+        margin-top: -310px;
+        margin-left: 360px;
+
+    
+    }
+
+    .personagens .personagem .conteudo .descricao{
+        margin-left: 360px;
+
+    }
+
+}
+
+@media (max-width: 768px){
+    p{
+        font-size: 14px;
+    }
+
+    main h2{
+        font-size: 18px;
+    }
+
+    main h3{
+        font-size: 16px;
+    }
+
+    section p{
+        font-size: 14px;
+    }
+
+    section h2{
+        font-size: 18px;
+    }
+
+    .cabecalho #logo{
+        height: 55px;
+    }
+
+    .shadow{
+        left: -680px;
+    }
+
+    .menu ul li a {
+        font-size: 18px;  
+        z-index: 1;
+    }
+
+    .menu ul li::after {
+        content: "";
+        position: absolute;
+        bottom: -18px;
+    }
+
+    .player .introducao img{
+        height: 130px;
+        margin-left: 70px;
+        margin-top: 20px;
+    }
+    
+    .player article .introducao #nome{
+        display: flex;
+        align-items: center;
+        position: relative;
+        margin-left: 220px;
+        margin-top: -120px;
+    }
+
+    .player article .introducao p{
+        margin-left: 220px;
+    }
+
+    .player article .caracteristicas {
+        margin-top: 0px;
+    }    
+
+    .personagens .cards .card img{
+        max-height: 82px;
+    }
+    .personagens .cards .card.selecionado img{
+        height: 100px;
+
+    }
+
+    .personagens .personagem .imagem{
+        height: 200px;
+    }
+
+    .personagens .personagem .conteudo .nome-personagem{
+        margin-top: -260px;
+        margin-left: 310px;
+    
+    }
+
+    .personagens .personagem .conteudo .descricao{
+        margin-left: 310px;
+
+    }
+
+}
